@@ -21,6 +21,9 @@ const Home = () => {
         {user && user.email}
       </div>
       <div className="d-grid gap-2">
+      <Button href="https://travelapp-react.hostman.site/" target='_blank' variant="primary" onClick={handleLogout}>
+          Go to Travel Advisor
+        </Button>
         <Button variant="primary" onClick={handleLogout}>
           Log out
         </Button>
